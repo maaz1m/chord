@@ -18,3 +18,4 @@ To create another node and join it to an existing node in the DHT
 `python peer.py 3403 localhost 3400 localhost`  
 
 The above simulteneous executions of the program will yield the following structure  
+![example](https://raw.githubusercontent.com/mmdmz/chord/master/example.png)

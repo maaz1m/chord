@@ -5,16 +5,16 @@ _________________
 
 ### Usage
 
-To create a root node:
+To create a root node  
 `python peer.py <root_port> <root_hostname>`
 
-To create another node and join it to an existing node in the DHT
+To create another node and join it to an existing node in the DHT  
 `python peer.py <port> <hostname> <existing_port> <existing_hostname>`
 
 ### Example
 
-`python peer.py 3400 localhost`
-`python peer.py 3401 localhost 3400 localhost`
-`python peer.py 3403 localhost 3400 localhost`
+`python peer.py 3400 localhost`  
+`python peer.py 3401 localhost 3400 localhost`  
+`python peer.py 3403 localhost 3400 localhost`  
 
-The above simulteneous executions of the program will yield the following structure
+The above simulteneous executions of the program will yield the following structure  
